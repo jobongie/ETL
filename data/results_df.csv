@@ -1,0 +1,52 @@
+count,path,state,name
+254,Texas,displayed,Texas
+159,Georgia,displayed,Georgia
+134,Virginia,displayed,Virginia
+120,Kentucky,displayed,Kentucky
+115,Missouri,displayed,Missouri
+105,Kansas,displayed,Kansas
+102,Illinois,displayed,Illinois
+100,North Carolina,displayed,North Carolina
+99,Iowa,displayed,Iowa
+95,Tennessee,displayed,Tennessee
+93,Nebraska,displayed,Nebraska
+92,Indiana,displayed,Indiana
+88,Ohio,displayed,Ohio
+87,Minnesota,displayed,Minnesota
+83,Michigan,displayed,Michigan
+82,Mississippi,displayed,Mississippi
+77,Oklahoma,displayed,Oklahoma
+75,Arkansas,displayed,Arkansas
+72,Wisconsin,displayed,Wisconsin
+67,Alabama,displayed,Alabama
+67,Florida,displayed,Florida
+67,Pennsylvania,displayed,Pennsylvania
+66,South Dakota,displayed,South Dakota
+64,Colorado,displayed,Colorado
+64,Louisiana,displayed,Louisiana
+62,New York,displayed,New York
+58,California,displayed,California
+56,Montana,displayed,Montana
+55,West Virginia,displayed,West Virginia
+53,North Dakota,displayed,North Dakota
+46,South Carolina,displayed,South Carolina
+44,Idaho,displayed,Idaho
+39,Washington,displayed,Washington
+36,Oregon,displayed,Oregon
+33,New Mexico,displayed,New Mexico
+29,Alaska,displayed,Alaska
+29,Utah,displayed,Utah
+24,Maryland,displayed,Maryland
+23,Wyoming,displayed,Wyoming
+21,New Jersey,displayed,New Jersey
+17,Nevada,displayed,Nevada
+16,Maine,displayed,Maine
+15,Arizona,displayed,Arizona
+14,Massachusetts,displayed,Massachusetts
+14,Vermont,displayed,Vermont
+10,New Hampshire,displayed,New Hampshire
+8,Connecticut,displayed,Connecticut
+5,Hawaii,displayed,Hawaii
+5,Rhode Island,displayed,Rhode Island
+3,Delaware,displayed,Delaware
+1,District of Columbia,displayed,District of Columbia
