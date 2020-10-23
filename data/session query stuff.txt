@@ -1,0 +1,35 @@
+## Inclass excercises
+
+
+use "and_" to do a single filter with multiple conditions without using filterby
+
+use single filter first, then use multiple criteria filters
+
+session.execute to use sql code when pandas sqalchemy does not work
+
+
+
+BONUS in STU_SHARK 
+labels filter can be removed as it is superfluous
+
+limit 1 is a header row?
+
+
+
+ins_bas
+session.begin_nested() - saves your changes after a session.add
+session.dirty shows conflicts
+session.new shows committed changes
+.all() similar to .head()
+
+sql alchemy translates between all sql platforms
+
+session.query().delete() must have selection or deletes all
+
+
+# For previewing SQL Databases
+db_browser
+
+
+
+
