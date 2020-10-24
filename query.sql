@@ -3,7 +3,8 @@ DROP TABLE states_now_df;
 
 -- Create the players table
 CREATE TABLE states_now_df (
-	State VARCHAR(20),
+	
+    State VARCHAR(20) PRIMARY KEY,
 	Poll Type VARCHAR(10),
 	Clinton INT,
 	Trump INT,
@@ -15,6 +16,6 @@ SELECT *
 FROM states_now_df;
 
 -- Create the matches table
-CREATE TABLE r reduced_df
-	State VARCHAR(20),
+CREATE TABLE reduced_df (
+	State VARCHAR(20) FOREIGN KEY,
 	Electoral Votes INT);
