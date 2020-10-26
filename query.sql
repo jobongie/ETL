@@ -1,6 +1,6 @@
 -- Drop table if exists
-DROP TABLE states_now_df;
-DROP TABLE short_results_df;
+-- DROP TABLE states_now_df;
+-- DROP TABLE short_results_df;
 
 -- Create the first table
 CREATE TABLE "states_now_df" (
