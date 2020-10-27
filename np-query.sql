@@ -1,3 +1,8 @@
+-- -- Drop table if exists
+-- DROP TABLE state_id;
+-- DROP TABLE states_now_df;
+-- DROP TABLE short_results_df;
+
 -- --Make a Table for State ID
 -- CREATE TABLE state_id(
 -- 		state_id SERIAL PRIMARY KEY,
@@ -68,7 +73,7 @@
 -- DROP TABLE states_now_df;
 -- DROP TABLE short_results_df;
 
--- Create the first table
+-- -- Create the first table
 -- CREATE TABLE "states_now_df"(
 --     "State" VARCHAR,
 --     "Poll Type" VARCHAR(10),
@@ -81,11 +86,11 @@
 --     "Trump Adjusted" DEC);
 
 
--- Check data import
+-- -- Check data import
 -- SELECT *
 -- FROM states_now_df;
 
--- Create the second table
+-- -- Create the second table
 -- CREATE TABLE "short_results_df" (
 --     "State" VARCHAR(20),
 --     "Electoral Votes" INT);
@@ -94,7 +99,7 @@
 -- SELECT *
 -- FROM short_results_df;
 
--- See both tables together
+-- -- See both tables together
 -- SELECT DISTINCT X."State", X."Poll Type", 
 -- 				X."Pollster", X."Start Date", X."End Date", 
 -- 				X."Clinton", X."Trump", X."Clinton Adjusted",
@@ -104,9 +109,4 @@
 -- LEFT OUTER JOIN short_results_df as Y 
 -- ON Y."State" = X."State"
 
-
-
-
-
-
-	
+-- SELECT * FROM states_electoral_df;
