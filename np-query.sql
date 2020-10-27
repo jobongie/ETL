@@ -107,6 +107,6 @@
 -- INTO states_electoral_df
 -- FROM states_now_df as X
 -- LEFT OUTER JOIN short_results_df as Y 
--- ON Y."State" = X."State";
+-- ON Y."State" = X."State"
 
 -- SELECT * FROM states_electoral_df;
