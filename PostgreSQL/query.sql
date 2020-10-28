@@ -1,41 +1,41 @@
--- Drop table if exists
--- DROP TABLE states_now_df;
--- DROP TABLE short_results_df;
-
--- -- Create the first table
--- CREATE TABLE "states_now_df" (	
---  "State" VARCHAR(30),
---  "Poll Type" VARCHAR,
--- -- "Pollster" VARCHAR(40),
--- --  "Start Date" Date,
--- --  "End Date" Date,
---  "Clinton" DEC,
---  "Trump" DEC,
---  "Clinton Adjusted" DEC,
---  "Trump Adjusted" DEC);
+-- Create the first table
+-- CREATE TABLE "states_winner_df"(
+--     "State" VARCHAR,
+-- 	"Pollster" VARCHAR,
+--     "Clinton" DEC,
+--     "Trump" DEC,
+--     "Clinton Adjusted" DEC,
+--     "Trump Adjusted" DEC,
+-- 	"Winner" VARCHAR);
 
 -- Check data import
-SELECT *
-FROM states_now_df;
+-- SELECT *
+-- FROM states_winner_df;
 
--- -- Create the second table
+-- Create the second table
 -- CREATE TABLE "short_results_df" (
--- 	"State" VARCHAR(20) PRIMARY KEY,
--- 	"Electoral Votes" INT)
+--     "State" VARCHAR(20),
+--     "Electoral Votes" INT);
 
 -- -- Check data import
 -- SELECT *
 -- FROM short_results_df;
 
--- -- Join players with seasons_stats
--- SELECT states_now_df.State,
---   states_now_df.Poll,
---   states_now_df.Clinton,
---   states_now_df.Trump,
---   states_now_df.Clinton Adjusted,
---   states_now_df.Trump Adjusted,
---   short_results_df.State,
---   short_results_df.Electoral Votes
--- FROM states_now_df
--- INNER JOIN short_results_df ON
--- states_now_df.State = short_results_df.State;
+-- See both tables together
+-- SELECT DISTINCT X."State", X."Pollster", X."Clinton", X."Trump", 
+-- 				  X."Clinton Adjusted", X."Trump Adjusted", X."Winner", Y."Electoral Votes"
+-- INTO states_electoral_df
+-- FROM states_winner_df as X
+-- LEFT OUTER JOIN short_results_df as Y 
+-- ON Y."State" = X."State"
+
+--View final table
+-- SELECT *
+-- FROM states_electoral_df
+
+
+
+
+
+
+	
