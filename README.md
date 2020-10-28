@@ -57,7 +57,7 @@ The file **app.py** located in the **Python** folder utilizes a flask server to 
 
 ## Final Report
 
-Located in **Resources/documentation** the file **Project 2 Write-UP.docx** details the synopsis of our ETL project
+https://docs.google.com/document/d/1idK52B1sobwYqcqB5ocfDHanxN4gqVOF2a2wFKBvk_o/edit?usp=sharing
     
 
 
