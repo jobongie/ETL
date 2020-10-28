@@ -23,12 +23,11 @@ db.init_app(app)
 #################################################
 # Flask Routes
 #################################################
-@app.route('/')
-def states_electoral_df():   
-    
-    ### Need to convert this to a list first
-    
-    return jsonify(states_electoral_df)
+@app.route("/api/v1.0/states_electoral_df")
+def states_electoral_df():
+    results = session.query(states_electoral_df).all()
+    results_list = list(results)
+    return jsonify(results_list)
 
 
 
