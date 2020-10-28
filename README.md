@@ -12,7 +12,7 @@
 
 
 ## ETL Process
-    ### Extraction  - **Data_puller.ipynb**
+### Extraction  - **Data_puller.ipynb**
         
         Downloads 
         **CSV** file from the website **fivethirtyeight.com**
@@ -23,7 +23,7 @@
         **results_df.csv**
 
 
-    ### Transformation 1 - **dataframe_work.ipynb**
+### Transformation 1 - **dataframe_work.ipynb**
 
         Imports from **Resources** folder
         **forecast_df.csv**
@@ -33,7 +33,7 @@
         **short_results_df.csv**      
         **grouped_data_df.csv**
 
-    ### Transformation 2 - **state_winner.ipynb**
+### Transformation 2 - **state_winner.ipynb**
 
         Imports from **data** folder
         **grouped_data_df.csv**
@@ -41,7 +41,7 @@
         Exports to **data** folder
         **state_winner_df**
 
-    ### Loading - **query.sql**
+### Loading - **query.sql**
 
         Imports
         **states_winner_df.csv**
