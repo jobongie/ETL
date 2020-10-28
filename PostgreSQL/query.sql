@@ -1,3 +1,4 @@
+
 -- Create the first table
 -- CREATE TABLE "states_winner_df"(
 --     "State" VARCHAR,
@@ -32,3 +33,17 @@
 --View final table
 -- SELECT *
 -- FROM states_electoral_df
+
+-- SELECT *
+-- FROM states_electoral_df
+
+-- ALTER TABLE states_electoral_df ADD PRIMARY KEY ("State", "Pollster");
+
+-- ALTER TABLE states_electoral_df
+-- RENAME COLUMN "Clinton Adjusted" TO Clinton_Adjusted
+
+-- ALTER TABLE states_electoral_df
+-- RENAME COLUMN "Trump Adjusted" TO Trump_Adjusted
+
+-- ALTER TABLE states_electoral_df
+-- RENAME COLUMN "Electoral Votes" TO Electoral_Votes;
