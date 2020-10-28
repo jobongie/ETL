@@ -8,7 +8,7 @@
 
 ## Data Sources
 
-    Our information is comes from the websites **"fivethirtyeight.com"** and **public.opendatasoft.com**. 
+Our information is comes from the websites **"fivethirtyeight.com"** and **public.opendatasoft.com**. 
 
 
 ## ETL Process
@@ -53,11 +53,11 @@ Exports to **data** folder
 
 
 ## Flask API
-    The file **app.py** located in the **Python** folder utilizes a flask server to query the Postgresql database and returns it in a JSON format.
+The file **app.py** located in the **Python** folder utilizes a flask server to query the Postgresql database and returns it in a JSON format.
 
 ## Final Report
 
-    Located in **Resources/documentation** the file **Project 2 Write-UP.docx** details the synopsis of our ETL project
+Located in **Resources/documentation** the file **Project 2 Write-UP.docx** details the synopsis of our ETL project
     
 
 
