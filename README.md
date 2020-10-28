@@ -14,40 +14,40 @@
 ## ETL Process
 ### Extraction  - **Data_puller.ipynb**
         
-        Downloads 
+Downloads 
         **CSV** file from the website **fivethirtyeight.com**
         **API query** to the website **public.opendatasoft.com**
         
-        Exports to **Resources** folder
+Exports to **Resources** folder
         **forecast_df.csv**
         **results_df.csv**
 
 
 ### Transformation 1 - **dataframe_work.ipynb**
 
-        Imports from **Resources** folder
+Imports from **Resources** folder
         **forecast_df.csv**
         **results_df.csv**
 
-        Exports to **data** folder
+Exports to **data** folder
         **short_results_df.csv**      
         **grouped_data_df.csv**
 
 ### Transformation 2 - **state_winner.ipynb**
 
-        Imports from **data** folder
+Imports from **data** folder
         **grouped_data_df.csv**
 
-        Exports to **data** folder
+Exports to **data** folder
         **state_winner_df**
 
 ### Loading - **query.sql**
 
-        Imports
+Imports
         **states_winner_df.csv**
         **short_results_df.csv**
 
-        Exports to **data** folder
+Exports to **data** folder
         **states_electoral_df.csv**
     
 
